@@ -15,6 +15,11 @@ class QuizQuestion extends Component {
         </section>
         <section className="buttons">
           <ul>
+            {this.props.quiz_question.answer_options.map((option) => {
+              let answer_option = option;
+              let answer_option_index = option.index;
+            })}
+
             <QuizQuestionButton
               button_text={this.props.quiz_question.answer_options[0]}
             />
