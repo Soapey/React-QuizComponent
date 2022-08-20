@@ -12,7 +12,7 @@ class Quiz extends Component {
     };
   }
 
-  showNextQuestion = () => {};
+  showNextQuestion() {}
 
   render() {
     const isQuizEnd =

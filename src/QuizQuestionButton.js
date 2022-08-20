@@ -6,7 +6,7 @@ class QuizQuestionButton extends Component {
     this.state = {};
   }
 
-  handleClick = () => {};
+  handleClick() {}
 
   render() {
     return (
